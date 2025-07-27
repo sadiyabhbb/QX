@@ -3,8 +3,8 @@ const TelegramBot = require('node-telegram-bot-api');
 const { RSI, EMA } = require('technicalindicators');
 
 // 🔐 Replace with your actual Telegram bot token and chat ID
-const TELEGRAM_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN';
-const CHAT_ID = 'YOUR_CHAT_ID';
+const TELEGRAM_TOKEN = '7511016877:AAF9Hd07wF17wmeXT_0e4vB01FrDb415bXY';
+const CHAT_ID = '7933110913';
 
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: false });
 
